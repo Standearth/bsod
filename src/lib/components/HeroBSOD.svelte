@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	let progress = $state(0);
-	const duration = 45259; // 6 seconds
+	const duration = 5000; // 6 seconds
 	const interval = 50; // update every 50ms
 	const steps = duration / interval;
 	const increment = 100 / steps;
