@@ -1,10 +1,17 @@
 <script lang="ts">
 	import { trackSocialShare } from '$lib/analytics';
+	import threadsIcon from '$lib/assets/threads.webp';
 
 	const shareUrl = 'https://microsoftlies.com';
 	const shareText = 'Microsoft, your climate plan ran into a problem. Read the open letter:';
 
-	const socials = [
+	const socials: Array<{
+		name: string;
+		color: string;
+		href: string;
+		svg?: string;
+		img?: string;
+	}> = [
 		{
 			name: 'Facebook',
 			color: '#1877F2',
@@ -20,7 +27,7 @@
 		{
 			name: 'Threads',
 			color: '#000000',
-			svg: '<path fill-rule="evenodd" d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.59 12c.025 3.086.718 5.496 2.057 7.164 1.432 1.781 3.632 2.695 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.96-.065-1.17.408-2.243 1.33-3.023.81-.683 1.905-1.087 3.258-1.2.98-.082 1.96-.044 2.928.114-.032-.58-.166-1.05-.396-1.404-.378-.582-1.07-.876-2.054-.876h-.088c-.724.018-1.37.214-1.86.566l-1.08-1.696c.76-.487 1.747-.77 2.862-.809h.159c1.503 0 2.678.485 3.49 1.442.684.81 1.051 1.907 1.09 3.264.56.108 1.077.247 1.543.421 1.49.555 2.592 1.47 3.184 2.648.807 1.606.856 4.2-1.334 6.347C17.952 23.12 15.642 23.964 12.186 24zM11.29 15.451c-.984.082-1.735.36-2.232.827-.416.39-.585.846-.561 1.323.038.663.393 1.208 1.001 1.536.607.328 1.376.457 2.166.414 1.1-.06 1.96-.457 2.555-1.183.478-.584.792-1.39.937-2.397a11.573 11.573 0 00-3.866-.52z"/>',
+			img: threadsIcon,
 			href: `https://www.threads.net/intent/post?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`
 		},
 		{
@@ -53,9 +60,13 @@
 				style="background-color: {social.color}"
 				onclick={() => trackSocialShare(social.name)}
 			>
-				<svg class="share-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-					{@html social.svg}
-				</svg>
+				{#if social.img}
+					<img class="share-icon-img" src={social.img} alt={social.name} />
+				{:else}
+					<svg class="share-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						{@html social.svg}
+					</svg>
+				{/if}
 			</a>
 		{/each}
 	</div>
@@ -104,5 +115,12 @@
 	.share-icon {
 		width: 1.15rem;
 		height: 1.15rem;
+	}
+
+	.share-icon-img {
+		width: 1.15rem;
+		height: 1.15rem;
+		object-fit: contain;
+		filter: brightness(0) invert(1);
 	}
 </style>
