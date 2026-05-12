@@ -57,7 +57,7 @@
 	<div class="doc-area">
 		<div class="doc-page">
 			<div class="doc-content">
-				<h2 class="letter-title">Microsoft, Are You <br/>Abandoning Your <br/>Climate Goals?<span class="cursor">|</span></h2>
+				<h2 class="letter-title">Microsoft, Are You Abandoning Your Climate Goals?<span class="cursor">|</span></h2>
 
 				<p class="letter-addressee">Dear CEO Satya Nadella and Co-Founder Bill Gates,</p>
 
@@ -107,10 +107,12 @@
 						<li>350 Seattle</li>
 						<li>350 Triangle</li>
 						<li>350 Yakima Climate Action</li>
+						<li>7 Directions of Service</li>
 						<li>Appalachian Voices</li>
 						<li>Autistic Women & Nonbinary Network</li>
 						<li>BDS Malaysia</li>
 						<li>Beyond Fossil Fuel</li>
+						<li>Center for Oil & Gas Organizing</li>
 						<li>Center for Progressive Reform</li>
 						<li>Clean Water for North Carolina</li>
 						<li>Enabled Emissions Campaign</li>
@@ -121,8 +123,10 @@
 						<li>KUUF Social Justice Committee</li>
 						<li>LaPlaca and Associates LLC</li>
 						<li>Legal Rights for the Salish Sea</li>
+						<li>MARBE S.A.</li>
 						<li>MPower Change</li>
 						<li>National Association of Voice Actors</li>
+						<li>National Coalition Against Cryptomining and AI Data Centers</li>
 						<li>NC Environmental Justice Network</li>
 						<li>NextGen Competition</li>
 						<li>No Azure for Apartheid</li>
@@ -132,6 +136,7 @@
 						<li>Rise Up WV</li>
 						<li>Seattle Democratic Socialists of America</li>
 						<li>Seattle Women for Sustainable Change</li>
+						<li>Seneca Lake Guardian</li>
 						<li>ShareAction</li>
 						<li>Sierra Club North Carolina Chapter Foothills Group</li>
 						<li>Sustainable AI Futures</li>
@@ -282,6 +287,10 @@
 		font-weight: 700;
 		margin-bottom: 1rem;
 		color: #1a1a1a;
+	}
+
+	.letter-title {
+		max-width:350px;
 	}
 
 	/* Blinking cursor */
