@@ -121,7 +121,7 @@
 
 	.modal-body iframe {
 		width: 100%;
-		height: 70vh;
+		height: 85vh;
 		border: none;
 	}
 
@@ -129,5 +129,19 @@
 		padding: 3rem;
 		text-align: center;
 		color: #666;
+	}
+
+	@media (max-width: 600px) {
+		.overlay {
+			padding: 0.5rem;
+		}
+
+		.modal {
+			max-height: 96vh;
+		}
+
+		.modal-body iframe {
+			height: 92vh;
+		}
 	}
 </style>
