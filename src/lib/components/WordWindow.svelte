@@ -54,7 +54,7 @@
 	</div>
 
 	<!-- Document Area -->
-	<div class="doc-area">
+	<div class="doc-area" id="letter">
 		<div class="doc-page">
 			<div class="doc-content">
 				<h2 class="letter-title">Microsoft, Are You Abandoning Your Climate Goals?<span class="cursor">|</span></h2>
