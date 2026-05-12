@@ -144,8 +144,10 @@
 						<li>Third Act</li>
 						<li>Troublemakers</li>
 						<li>USC SCALE (Student Coalition Against Labor Exploitation)</li>
+						<li>Walnut Way Conservation Corp</li>
 						<li>Washington Council of Trout Unlimited</li>
 						<li>Washington Physicians for Social Responsibility</li>
+						<li>The WEBB (Wisconsin Ecojustice Base Builders)</li>
 						<li>Wenatchee for Palestine</li>
 						<li>WV Citizen Action Group</li>
 					</ul>
