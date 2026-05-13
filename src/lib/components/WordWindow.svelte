@@ -4,6 +4,7 @@
 	import { trackLetterScrolledToBottom } from '$lib/analytics';
 
 	let letterEnd: HTMLDivElement = undefined!;
+	let showAllSignatories = $state(false);
 
 	onMount(() => {
 		let fired = false;
@@ -96,7 +97,8 @@
 						Organizations representing communities across North America and around the globe have co-signed this letter, including:
 					</p>
 
-					<ul class="signatories-list">
+					<ul class="signatories-list" class:no-gap={showAllSignatories}>
+						<!-- Top 7 featured organizations -->
 						<li>Stand.earth</li>
 						<li>Sierra Club</li>
 						<li>Greenpeace USA</li>
@@ -104,52 +106,131 @@
 						<li>Friends of the Earth U.S.</li>
 						<li>Hip Hop Caucus</li>
 						<li>Amazon Employees for Climate Justice</li>
+						<!-- Alphabetical remaining (first 3 to reach row 10) -->
+						<li>2022 Initiative Foundation</li>
 						<li>350 Seattle</li>
 						<li>350 Triangle</li>
-						<li>350 Yakima Climate Action</li>
-						<li>7 Directions of Service</li>
-						<li>Appalachian Voices</li>
-						<li>Autistic Women & Nonbinary Network</li>
-						<li>BDS Malaysia</li>
-						<li>Beyond Fossil Fuel</li>
-						<li>Center for Oil & Gas Organizing</li>
-						<li>Center for Progressive Reform</li>
-						<li>Clean Water for North Carolina</li>
-						<li>Enabled Emissions Campaign</li>
-						<li>EnergyTag</li>
-						<li>Institutional Climate Action at UW</li>
-						<li>Keensight Health</li>
-						<li>Kenoshans Unite Against Microsoft Data Center (KUAMDC)</li>
-						<li>KUUF Social Justice Committee</li>
-						<li>LaPlaca and Associates LLC</li>
-						<li>Legal Rights for the Salish Sea</li>
-						<li>MARBE S.A.</li>
-						<li>MPower Change</li>
-						<li>National Association of Voice Actors</li>
-						<li>National Coalition Against Cryptomining and AI Data Centers</li>
-						<li>NC Environmental Justice Network</li>
-						<li>NextGen Competition</li>
-						<li>No Azure for Apartheid</li>
-						<li>Oil and Gas Action Network</li>
-						<li>Olympic Climate Action</li>
-						<li>Pertubuhan Pelindung Khazanah Alam</li>
-						<li>Rise Up WV</li>
-						<li>Seattle Democratic Socialists of America</li>
-						<li>Seattle Women for Sustainable Change</li>
-						<li>Seneca Lake Guardian</li>
-						<li>ShareAction</li>
-						<li>Sierra Club North Carolina Chapter Foothills Group</li>
-						<li>Sustainable AI Futures</li>
-						<li>Tech Oversight Project</li>
-						<li>Third Act</li>
-						<li>Troublemakers</li>
-						<li>USC SCALE (Student Coalition Against Labor Exploitation)</li>
-						<li>Walnut Way Conservation Corp</li>
-						<li>Washington Physicians for Social Responsibility</li>
-						<li>The WEBB (Wisconsin Ecojustice Base Builders)</li>
-						<li>Wenatchee for Palestine</li>
-						<li>WV Citizen Action Group</li>
 					</ul>
+
+					{#if !showAllSignatories}
+						<button class="read-more-btn" onclick={() => showAllSignatories = true}>
+							See full list ▾
+						</button>
+					{/if}
+
+					{#if showAllSignatories}
+						<ul class="signatories-list">
+							<li>350 Yakima Climate Action</li>
+							<li>350Hawaii</li>
+							<li>7 Directions of Service</li>
+							<li>A Call to Actions</li>
+							<li>Action-environnement Basses-Laurentides</li>
+							<li>Amazonas For Life AB</li>
+							<li>Appalachian Voices</li>
+							<li>Atlantic Energy</li>
+							<li>Autistic Women &amp; Nonbinary Network</li>
+							<li>AyA Kitchens and Baths Ltd.</li>
+							<li>BDS Malaysia</li>
+							<li>Beyond Fossil Fuel</li>
+							<li>Biodiversity Conservation Center</li>
+							<li>Broward Democratic Environmental Caucus</li>
+							<li>Canadian Association of the Club of Rome (CACOR)</li>
+							<li>Center for Oil &amp; Gas Organizing</li>
+							<li>Center for Progressive Reform</li>
+							<li>Chesapeake Climate Action Network</li>
+							<li>Clean Green Regina</li>
+							<li>Clean Water for North Carolina</li>
+							<li>Climate Action Now! North Okanagan</li>
+							<li>Climate Reality Project - NJ</li>
+							<li>Concise Logic</li>
+							<li>Council of Canadians Edmonton Chapter</li>
+							<li>Cowichan Climate Hub</li>
+							<li>CUSP - Citizens United for a Sustainable Planet</li>
+							<li>Doctors for Planetary Health - West Coast</li>
+							<li>Don Valley West for Environmental Action</li>
+							<li>Eastside Branch, Seattle DSA</li>
+							<li>EcoElders for Climate Action, Calgary AB</li>
+							<li>Eliot Church of Newton, United Church of Christ</li>
+							<li>Enabled Emissions Campaign</li>
+							<li>Endangered Habitats League</li>
+							<li>EnergyTag</li>
+							<li>Esquimalt Climate Organizers</li>
+							<li>Ethiopian Climate Action Organization</li>
+							<li>Fiddlehead Nursery</li>
+							<li>Fossil Free UC Davis</li>
+							<li>Fredericton Community Climate Hub</li>
+							<li>Grunberg Patterson Centre for Counselling</li>
+							<li>Hayward Indivisible</li>
+							<li>Institutional Climate Action at UW</li>
+							<li>Jewish Earth Alliance - PA</li>
+							<li>Keensight Health</li>
+							<li>Kenoshans Unite Against Microsoft Data Center</li>
+							<li>Klimaschutz+ Stiftung e.V.</li>
+							<li>KUUF Social Justice Committee</li>
+							<li>LaPlaca and Associates LLC</li>
+							<li>Lateral Agency</li>
+							<li>Legal Rights for the Salish Sea</li>
+							<li>MARBE S.A.</li>
+							<li>Minnesota River Valley Audubon Chapter</li>
+							<li>Mothers Rise Up</li>
+							<li>MPower Change</li>
+							<li>Mudgirls Natural Building Collective</li>
+							<li>Mutant Akademy / Revolt Motion Records</li>
+							<li>National Association of Voice Actors</li>
+							<li>National Coalition Against Cryptomining and AI Data Centers</li>
+							<li>NC Environmental Justice Network</li>
+							<li>New Brunswick Anti-Shale Gas Alliance</li>
+							<li>NextGen Competition</li>
+							<li>No Azure for Apartheid</li>
+							<li>North Carolina Chapter Sierra Club Foothills Group</li>
+							<li>Northern Permaculture</li>
+							<li>Northwest BC Coalition for Alternatives to Pesticides</li>
+							<li>Oil and Gas Action Network</li>
+							<li>Olympic Climate Action</li>
+							<li>Pertubuhan Pelindung Khazanah Alam</li>
+							<li>Pilon Laboratories Inc.</li>
+							<li>Rise Up WV</li>
+							<li>Roman Catholic Church</li>
+							<li>SaEF Fencing Club</li>
+							<li>Save l'Anse-a-l'Orme</li>
+							<li>Seattle Democratic Socialists of America</li>
+							<li>Seattle Women for Sustainable Change</li>
+							<li>Seine River Dental Centre</li>
+							<li>Seneca Lake Guardian</li>
+							<li>Seniors for Climate Victoria</li>
+							<li>ShareAction</li>
+							<li>Sierra Club North Carolina Chapter Foothills Group</li>
+							<li>Sisters of St. Dominic of Blauvelt, New York</li>
+							<li>Society of Fearless Grandmothers Santa Barbara</li>
+							<li>South Seattle Climate Action Network</li>
+							<li>Stenseng Domene</li>
+							<li>Sustainable AI Futures</li>
+							<li>Sustainable Development AB</li>
+							<li>Tamalpais NatureWorks</li>
+							<li>Tech Oversight Project</li>
+							<li>Terra Advocati</li>
+							<li>The Riveters Collective</li>
+							<li>The Soap Dispensary</li>
+							<li>The WEBB (Wisconsin Ecojustice Base Builders)</li>
+							<li>Third Act</li>
+							<li>Trees of Santa Maria</li>
+							<li>Troublemakers</li>
+							<li>USC SCALE (Student Coalition Against Labor Exploitation)</li>
+							<li>VT for Climate Justice</li>
+							<li>Walnut Way Conservation Corp</li>
+							<li>Washington Council of Trout Unlimited</li>
+							<li>Washington Physicians for Social Responsibility</li>
+							<li>WCTU</li>
+							<li>Wenatchee for Palestine</li>
+							<li>Women's March Santa Barbara</li>
+							<li>WV Citizen Action Group</li>
+							<li>Zebra Crossing Ltd</li>
+						</ul>
+
+						<button class="read-more-btn" onclick={() => showAllSignatories = false}>
+							Show less ▴
+						</button>
+					{/if}
 				</div>
 
 				<!-- Scroll-tracking sentinel -->
@@ -353,6 +434,27 @@
 		padding: 0.3rem 0;
 		font-weight: 600;
 		break-inside: avoid;
+	}
+
+	.signatories-list.no-gap {
+		margin-bottom: 0;
+	}
+
+	.read-more-btn {
+		display: block;
+		margin: 0.5rem 0 1.5rem 0;
+		padding: 0.5rem 0;
+		background: none;
+		border: none;
+		color: #000;
+		font-size: 0.85rem;
+		font-weight: 600;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	.read-more-btn:hover {
+		opacity: 0.7;
 	}
 
 	.signatories-additional {
