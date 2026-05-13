@@ -106,10 +106,10 @@
 						<li>Friends of the Earth U.S.</li>
 						<li>Hip Hop Caucus</li>
 						<li>Amazon Employees for Climate Justice</li>
-						<!-- Alphabetical remaining (first 3 to reach row 10) -->
-						<li>2022 Initiative Foundation</li>
-						<li>350 Seattle</li>
-						<li>350 Triangle</li>
+						<!-- Additional highlighted organizations -->
+						<li>Beyond Fossil Fuel</li>
+						<li>Third Act</li>
+						<li>Appalachian Voices</li>
 					</ul>
 
 					{#if !showAllSignatories}
@@ -120,18 +120,19 @@
 
 					{#if showAllSignatories}
 						<ul class="signatories-list">
+							<li>2022 Initiative Foundation</li>
+							<li>350 Seattle</li>
+							<li>350 Triangle</li>
 							<li>350 Yakima Climate Action</li>
 							<li>350Hawaii</li>
 							<li>7 Directions of Service</li>
 							<li>A Call to Actions</li>
 							<li>Action-environnement Basses-Laurentides</li>
 							<li>Amazonas For Life AB</li>
-							<li>Appalachian Voices</li>
 							<li>Atlantic Energy</li>
 							<li>Autistic Women &amp; Nonbinary Network</li>
 							<li>AyA Kitchens and Baths Ltd.</li>
 							<li>BDS Malaysia</li>
-							<li>Beyond Fossil Fuel</li>
 							<li>Biodiversity Conservation Center</li>
 							<li>Broward Democratic Environmental Caucus</li>
 							<li>Canadian Association of the Club of Rome (CACOR)</li>
@@ -212,7 +213,6 @@
 							<li>The Riveters Collective</li>
 							<li>The Soap Dispensary</li>
 							<li>The WEBB (Wisconsin Ecojustice Base Builders)</li>
-							<li>Third Act</li>
 							<li>Trees of Santa Maria</li>
 							<li>Troublemakers</li>
 							<li>USC SCALE (Student Coalition Against Labor Exploitation)</li>
