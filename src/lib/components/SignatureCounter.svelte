@@ -1,6 +1,6 @@
 <script lang="ts">
 	let {
-		individualCount = 45259,
+		individualCount = 52257,
 		orgCount = 56
 	}: {
 		individualCount?: number;
@@ -13,7 +13,7 @@
 	}
 
 	// Calculate fill percentage for visual bar (cap at 100%)
-	const individualTarget = 50000;
+	const individualTarget = 75000;
 	const orgTarget = 75;
 	let individualPct = $derived(Math.min((individualCount / individualTarget) * 100, 100));
 	let orgPct = $derived(Math.min((orgCount / orgTarget) * 100, 100));
