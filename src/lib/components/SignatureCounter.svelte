@@ -1,7 +1,16 @@
 <script lang="ts">
+	import data from '$lib/data.json';
+
+	// Automatically calculate the total number of organizations
+	const totalOrgs = 
+		data.featuredOrganizations.length + 
+		data.highlightedOrganizations.length + 
+		data.allOrganizations.length;
+
 	let {
-		individualCount = 52257,
-		orgCount = 133
+		// Pull individuals from the JSON, use the auto-calculated total for orgs
+		individualCount = data.counts.individuals,
+		orgCount = totalOrgs
 	}: {
 		individualCount?: number;
 		orgCount?: number;

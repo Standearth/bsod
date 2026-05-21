@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import WindowTitleBar from './WindowTitleBar.svelte';
 	import { trackLetterScrolledToBottom } from '$lib/analytics';
+	import data from '$lib/data.json';
 
 	let letterEnd: HTMLDivElement = undefined!;
 	let showAllSignatories = $state(false);
@@ -98,18 +99,13 @@
 					</p>
 
 					<ul class="signatories-list" class:no-gap={showAllSignatories}>
-						<!-- Top 7 featured organizations -->
-						<li>Stand.earth</li>
-						<li>Sierra Club</li>
-						<li>Greenpeace USA</li>
-						<li>Public Citizen</li>
-						<li>Friends of the Earth U.S.</li>
-						<li>Hip Hop Caucus</li>
-						<li>Amazon Employees for Climate Justice</li>
-						<!-- Additional highlighted organizations -->
-						<li>Beyond Fossil Fuel</li>
-						<li>Third Act</li>
-						<li>Appalachian Voices</li>
+						{#each data.featuredOrganizations as org}
+							<li>{org}</li>
+						{/each}
+						
+						{#each data.highlightedOrganizations as org}
+							<li>{org}</li>
+						{/each}
 					</ul>
 
 					{#if !showAllSignatories}
@@ -120,129 +116,9 @@
 
 					{#if showAllSignatories}
 						<ul class="signatories-list">
-							<li>2022 Initiative Foundation</li>
-							<li>350 Seattle</li>
-							<li>350 Triangle</li>
-							<li>350 Yakima Climate Action</li>
-							<li>350Hawaii</li>
-							<li>7 Directions of Service</li>
-							<li>A Call to Actions</li>
-							<li>Action-environnement Basses-Laurentides</li>
-							<li>Alliance for Community Engagement (ACE) SW WA</li>
-							<li>Amazonas For Life AB</li>
-							<li>Atlantic Energy</li>
-							<li>Autistic Women &amp; Nonbinary Network</li>
-							<li>AyA Kitchens and Baths Ltd.</li>
-							<li>BDS Malaysia</li>
-							<li>Biodiversity Conservation Center</li>
-							<li>Broward Democratic Environmental Caucus</li>
-							<li>Canadian Association of the Club of Rome (CACOR)</li>
-							<li>Center for Oil &amp; Gas Organizing</li>
-							<li>Center for Progressive Reform</li>
-							<li>Chesapeake Climate Action Network</li>
-							<li>Clean Green Regina</li>
-							<li>Clean Water for North Carolina</li>
-							<li>Clean Wisconsin</li>
-							<li>Climate Action Now! North Okanagan</li>
-							<li>Climate Action St Austell</li>
-							<li>Climate Reality Project - NJ</li>
-							<li>ClimateVoice</li>
-							<li>Collett Trust for Endangered Species</li>
-							<li>Concise Logic</li>
-							<li>Council of Canadians Edmonton Chapter</li>
-							<li>Cowichan Climate Hub</li>
-							<li>Cronk Advisory</li>
-							<li>CUSP - Citizens United for a Sustainable Planet</li>
-							<li>Cyber4Climate</li>
-							<li>Doctors for Planetary Health - West Coast</li>
-							<li>Don Valley West for Environmental Action</li>
-							<li>Eastside Branch, Seattle DSA</li>
-							<li>EcoElders for Climate Action, Calgary AB</li>
-							<li>Eliot Church of Newton, United Church of Christ</li>
-							<li>Enabled Emissions Campaign</li>
-							<li>Endangered Habitats League</li>
-							<li>EnergyTag</li>
-							<li>Esquimalt Climate Organizers</li>
-							<li>Ethiopian Climate Action Organization</li>
-							<li>Extinction Rebellion Boston</li>
-							<li>Fiddlehead Nursery</li>
-							<li>Fossil Free UC Davis</li>
-							<li>Fredericton Community Climate Hub</li>
-							<li>Free family book swap</li>
-							<li>Fridays For Future Manitoba</li>
-							<li>GreenFaith</li>
-							<li>Grunberg Patterson Centre for Counselling</li>
-							<li>Hayward Indivisible</li>
-							<li>Inner Vision Design</li>
-							<li>Institutional Climate Action at UW</li>
-							<li>Jewish Earth Alliance - PA</li>
-							<li>Keensight Health</li>
-							<li>Kenoshans Unite Against Microsoft Data Center</li>
-							<li>Klimaschutz+ Stiftung e.V.</li>
-							<li>KUUF Social Justice Committee</li>
-							<li>LaPlaca and Associates LLC</li>
-							<li>Lateral Agency</li>
-							<li>Legal Rights for the Salish Sea</li>
-							<li>Long Beach Alliance for Clean Energy</li>
-							<li>MARBE S.A.</li>
-							<li>Minnesota River Valley Audubon Chapter</li>
-							<li>Mothers Rise Up</li>
-							<li>MPower Change</li>
-							<li>Mudgirls Natural Building Collective</li>
-							<li>Mutant Akademy / Revolt Motion Records</li>
-							<li>National Association of Voice Actors</li>
-							<li>National Coalition Against Cryptomining and AI Data Centers</li>
-							<li>NC Environmental Justice Network</li>
-							<li>New Brunswick Anti-Shale Gas Alliance</li>
-							<li>NextGen Competition</li>
-							<li>No Azure for Apartheid</li>
-							<li>North Carolina Chapter Sierra Club Foothills Group</li>
-							<li>Northern Permaculture</li>
-							<li>Northwest BC Coalition for Alternatives to Pesticides</li>
-							<li>Oil and Gas Action Network</li>
-							<li>Olympic Climate Action</li>
-							<li>Ominous Games Corporation</li>
-							<li>Otter Be Good Productions</li>
-							<li>Pertubuhan Pelindung Khazanah Alam</li>
-							<li>Pilon Laboratories Inc.</li>
-							<li>Pretty Good LLC</li>
-							<li>Residents United for a Healthy Lowell</li>
-							<li>Rise Up WV</li>
-							<li>Roman Catholic Church</li>
-							<li>SaEF Fencing Club</li>
-							<li>Save l'Anse-a-l'Orme</li>
-							<li>Seattle Democratic Socialists of America</li>
-							<li>Seattle Women for Sustainable Change</li>
-							<li>Seine River Dental Centre</li>
-							<li>Seneca Lake Guardian</li>
-							<li>Seniors for Climate Victoria</li>
-							<li>ShareAction</li>
-							<li>Sierra Club North Carolina Chapter Foothills Group</li>
-							<li>Sisters of St. Dominic of Blauvelt, New York</li>
-							<li>Society of Fearless Grandmothers Santa Barbara</li>
-							<li>South Seattle Climate Action Network</li>
-							<li>Stenseng Domene</li>
-							<li>Sustainable AI Futures</li>
-							<li>Sustainable Development AB</li>
-							<li>Tamalpais NatureWorks</li>
-							<li>Tech Oversight Project</li>
-							<li>Terra Advocati</li>
-							<li>The Riveters Collective</li>
-							<li>The Soap Dispensary</li>
-							<li>The WEBB (Wisconsin Ecojustice Base Builders)</li>
-							<li>Trees of Santa Maria</li>
-							<li>Troublemakers</li>
-							<li>USC SCALE (Student Coalition Against Labor Exploitation)</li>
-							<li>Victoria Secular Humanist Association</li>
-							<li>VT for Climate Justice</li>
-							<li>Walnut Way Conservation Corp</li>
-							<li>Washington Council of Trout Unlimited</li>
-							<li>Washington Physicians for Social Responsibility</li>
-							<li>WCTU</li>
-							<li>Wenatchee for Palestine</li>
-							<li>Women's March Santa Barbara</li>
-							<li>WV Citizen Action Group</li>
-							<li>Zebra Crossing Ltd</li>
+							{#each data.allOrganizations as org}
+								<li>{org}</li>
+							{/each}
 						</ul>
 
 						<button class="read-more-btn" onclick={() => showAllSignatories = false}>
