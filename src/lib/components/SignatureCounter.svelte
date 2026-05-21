@@ -1,7 +1,7 @@
 <script lang="ts">
 	let {
 		individualCount = 52257,
-		orgCount = 120
+		orgCount = 133
 	}: {
 		individualCount?: number;
 		orgCount?: number;

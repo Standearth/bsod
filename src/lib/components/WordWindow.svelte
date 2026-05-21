@@ -128,6 +128,7 @@
 							<li>7 Directions of Service</li>
 							<li>A Call to Actions</li>
 							<li>Action-environnement Basses-Laurentides</li>
+							<li>Alliance for Community Engagement (ACE) SW WA</li>
 							<li>Amazonas For Life AB</li>
 							<li>Atlantic Energy</li>
 							<li>Autistic Women &amp; Nonbinary Network</li>
@@ -141,12 +142,18 @@
 							<li>Chesapeake Climate Action Network</li>
 							<li>Clean Green Regina</li>
 							<li>Clean Water for North Carolina</li>
+							<li>Clean Wisconsin</li>
 							<li>Climate Action Now! North Okanagan</li>
+							<li>Climate Action St Austell</li>
 							<li>Climate Reality Project - NJ</li>
+							<li>ClimateVoice</li>
+							<li>Collett Trust for Endangered Species</li>
 							<li>Concise Logic</li>
 							<li>Council of Canadians Edmonton Chapter</li>
 							<li>Cowichan Climate Hub</li>
+							<li>Cronk Advisory</li>
 							<li>CUSP - Citizens United for a Sustainable Planet</li>
+							<li>Cyber4Climate</li>
 							<li>Doctors for Planetary Health - West Coast</li>
 							<li>Don Valley West for Environmental Action</li>
 							<li>Eastside Branch, Seattle DSA</li>
@@ -157,11 +164,16 @@
 							<li>EnergyTag</li>
 							<li>Esquimalt Climate Organizers</li>
 							<li>Ethiopian Climate Action Organization</li>
+							<li>Extinction Rebellion Boston</li>
 							<li>Fiddlehead Nursery</li>
 							<li>Fossil Free UC Davis</li>
 							<li>Fredericton Community Climate Hub</li>
+							<li>Free family book swap</li>
+							<li>Fridays For Future Manitoba</li>
+							<li>GreenFaith</li>
 							<li>Grunberg Patterson Centre for Counselling</li>
 							<li>Hayward Indivisible</li>
+							<li>Inner Vision Design</li>
 							<li>Institutional Climate Action at UW</li>
 							<li>Jewish Earth Alliance - PA</li>
 							<li>Keensight Health</li>
@@ -171,6 +183,7 @@
 							<li>LaPlaca and Associates LLC</li>
 							<li>Lateral Agency</li>
 							<li>Legal Rights for the Salish Sea</li>
+							<li>Long Beach Alliance for Clean Energy</li>
 							<li>MARBE S.A.</li>
 							<li>Minnesota River Valley Audubon Chapter</li>
 							<li>Mothers Rise Up</li>
@@ -188,8 +201,12 @@
 							<li>Northwest BC Coalition for Alternatives to Pesticides</li>
 							<li>Oil and Gas Action Network</li>
 							<li>Olympic Climate Action</li>
+							<li>Ominous Games Corporation</li>
+							<li>Otter Be Good Productions</li>
 							<li>Pertubuhan Pelindung Khazanah Alam</li>
 							<li>Pilon Laboratories Inc.</li>
+							<li>Pretty Good LLC</li>
+							<li>Residents United for a Healthy Lowell</li>
 							<li>Rise Up WV</li>
 							<li>Roman Catholic Church</li>
 							<li>SaEF Fencing Club</li>
@@ -216,6 +233,7 @@
 							<li>Trees of Santa Maria</li>
 							<li>Troublemakers</li>
 							<li>USC SCALE (Student Coalition Against Labor Exploitation)</li>
+							<li>Victoria Secular Humanist Association</li>
 							<li>VT for Climate Justice</li>
 							<li>Walnut Way Conservation Corp</li>
 							<li>Washington Council of Trout Unlimited</li>
