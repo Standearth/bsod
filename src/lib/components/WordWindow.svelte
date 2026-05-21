@@ -351,11 +351,6 @@
 		opacity: 0.7;
 	}
 
-	.signatories-additional {
-		color: #666;
-		font-size: 0.85rem;
-	}
-
 	@media (max-width: 768px) {
 		.word-window {
 			overflow: hidden;

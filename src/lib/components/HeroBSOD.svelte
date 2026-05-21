@@ -107,10 +107,6 @@
 		opacity: 0.7;
 	}
 
-	.bsod-link {
-		text-decoration: underline;
-	}
-
 	.bsod-code {
 		font-weight: 500;
 		opacity: 1;

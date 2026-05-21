@@ -36,9 +36,4 @@
 		height: 48px;
 		width: auto;
 	}
-
-	.footer-copy {
-		font-size: 0.75rem;
-		color: #666;
-	}
 </style>
