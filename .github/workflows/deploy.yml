@@ -32,13 +32,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Run checks and validation
+        run: npm run check
+
       - name: Build SvelteKit site
         run: npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          # This is the folder where adapter-static outputs your files
           path: 'build/'
 
   deploy:
