@@ -1,4 +1,8 @@
 {
+  "targets": {
+    "individuals": 75000,
+    "organizations": 200
+  },
   "counts": {
     "individuals": 52257
   },

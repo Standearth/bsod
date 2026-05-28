@@ -22,8 +22,9 @@
 	}
 
 	// Calculate fill percentage for visual bar (cap at 100%)
-	const individualTarget = 75000;
-	const orgTarget = 150;
+	const individualTarget = data.targets.individuals;
+	const orgTarget = data.targets.organizations;
+
 	let individualPct = $derived(Math.min((individualCount / individualTarget) * 100, 100));
 	let orgPct = $derived(Math.min((orgCount / orgTarget) * 100, 100));
 </script>
