@@ -2,6 +2,7 @@
 	import SignOnButtons from './SignOnButtons.svelte';
 	import SignatureCounter from './SignatureCounter.svelte';
 	import ShareSection from './ShareSection.svelte';
+	import YouTubeEmbed from './YouTubeEmbed.svelte';
 
 	let {
 		onSignIndividual,
@@ -18,6 +19,8 @@
 	<SignatureCounter />
 
 	<ShareSection />
+
+	<YouTubeEmbed />
 </aside>
 
 <style>
