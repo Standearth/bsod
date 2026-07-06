@@ -59,12 +59,13 @@
 	<div class="doc-area" >
 		<div class="doc-page">
 			<div class="doc-content">
-				<h2 class="letter-title">Microsoft, Are You Abandoning Your Climate Goals?<span class="cursor">|</span></h2>
+				<h2 class="letter-title">Microsoft, why so quiet about your climate goals?<span class="cursor">|</span></h2>
 
 				<p class="letter-addressee">Dear CEO Satya Nadella and Co-Founder Bill Gates,</p>
 
 				<p>
-					If you eliminate your climate targets, why should communities believe any of your commitments?
+					Communities are watching, you’re making deals with Chevron, and we still haven’t seen your latest “sustainability” plan. Why so quiet about your climate goals? Why are you hiding the real pollution and water use from each of your data centers?
+
 				</p>
 
 				<p>
@@ -84,7 +85,7 @@
 				</p>
 
 				<p>
-					We are writing to urge you to recommit to clean energy, community health, affordability, and environmental responsibility. Microsoft used to be a leader in developing clean, renewable energy to power its facilities, setting clear and meaningful environmental and climate pollution goals, and investing in durable carbon dioxide removal.
+					As you prepare to release your sustainability report, we are writing to urge you to recommit to clean energy, transparency, community health, affordability, and environmental responsibility. Microsoft used to be a leader in developing clean, renewable energy to power its facilities, setting clear and meaningful environmental and climate pollution goals, and investing in durable carbon dioxide removal.
 				</p>
 
 				<p class="letter-closing">
