@@ -73,10 +73,6 @@
 				</p>
 
 				<p>
-					<b>You ask us to believe that you will contribute to our communities by paying fair taxes, providing jobs, and preserving water, so we should trust you to be a good neighbor – but what does your promise mean if commitments can be so easily abandoned?</b>
-				</p>
-
-				<p>
 					You committed to be a climate leader, removing more carbon than you emitted and delivering around-the-clock clean energy, yet your company is increasingly using fossil fuels to power data centers, and has brought <a href="https://www.datacenterdynamics.com/en/news/microsoft-emissions-up-23-since-2020-blames-ai-data-centers/" target="_new">pollution</a>, <a href="https://spectrumnews1.com/wi/milwaukee/news/2026/04/10/neighbors-frustrated-with-data-center-s-noise" target="_new">noise</a>, <a href="https://www.wpr.org/news/microsoft-data-centers-8-million-gallons-water-each-year" target="_new">rampant water use</a>, and waste to local communities. Your company is selling AI and cloud services to oil and gas companies to increase fossil fuel production <a href="https://news.un.org/en/story/2021/10/1103472" target="_new">despite clear scientific warnings that existing oil reserves already exceed safe climate limits</a>.
 				</p>
 
