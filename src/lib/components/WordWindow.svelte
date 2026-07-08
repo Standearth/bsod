@@ -61,7 +61,7 @@
 			<div class="doc-content">
 				<h2 class="letter-title">Microsoft, why so quiet about your climate goals?<span class="cursor">|</span></h2>
 
-				<p class="letter-addressee">Dear CEO Satya Nadella and Co-Founder Bill Gates,</p>
+				<p class="letter-addressee">Dear CEO Satya Nadella, Vice Chair Brad Smith, and CSO Melanie Nakagawa,</p>
 
 				<p>
 					Communities are watching, you’re making deals with Chevron, and we still haven’t seen your latest “sustainability” plan. Why so quiet about your climate goals? Why are you hiding the real pollution and water use from each of your data centers?
