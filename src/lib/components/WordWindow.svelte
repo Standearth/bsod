@@ -26,7 +26,7 @@
 </script>
 
 <div class="word-window" id="letter">
-	<WindowTitleBar title="Open Letter to Microsoft — Word" icon="📄" />
+	<WindowTitleBar title="Microsoft's Data Center Problems" icon="📄" />
 
 	<!-- Word Ribbon / Menu Bar -->
 	<div class="ribbon">
