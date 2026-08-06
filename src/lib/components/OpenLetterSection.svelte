@@ -31,7 +31,10 @@
 <section id="open-letter" class="letter-section" style="background-image: url({bgImage})">
 	<div class="section-content">
 		<div class="content-word">
-			<WordWindow />
+			<WordWindow
+				onSignIndividual={() => { individualModalOpen = true; trackIndividualSignOn(); }}
+				onSignOrganization={() => { orgModalOpen = true; trackOrgSignOn(); }}
+			/>
 		</div>
 		<div class="content-sidebar">
 			<Sidebar

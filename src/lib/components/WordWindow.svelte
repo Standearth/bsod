@@ -4,6 +4,14 @@
 	import { trackLetterScrolledToBottom } from '$lib/analytics';
 	import data from '$lib/data.json';
 
+	let {
+		onSignIndividual,
+		onSignOrganization
+	}: {
+		onSignIndividual: () => void;
+		onSignOrganization: () => void;
+	} = $props();
+
 	let letterEnd: HTMLDivElement = undefined!;
 	let showAllSignatories = $state(false);
 
@@ -67,7 +75,7 @@
 				</p>
 
 				<p>
-					Microsoft claims that it works with communities to reduce noise pollution and mitigate environmental damage, and <a href="https://news.microsoft.com/datacenters/" target="_blank" rel="noopener noreferrer">insists that these data centers bring economic benefits to surrounding areas</a>. Microsoft also made a significant commitment to end the anti-democratic practice of <a href="https://theassemblync.com/news/business/person-county-microsoft-data-center-nondisclosure-agreements/" target="_blank" rel="noopener noreferrer">non-disclosure agreements (NDAs)</a>. However, <a href="https://futurism.com/artificial-intelligence/microsoft-ai-data-center-lawsuit-neighbors" target="_blank" rel="noopener noreferrer">actions and impacts speak louder than words</a>. As Microsoft consistently breaks its promises through a seemingly never ending onslaught of unsustainable data centers, targeted communities report being shut out of critical information and decisions— and <a href="https://www.mlive.com/news/grand-rapids/2026/06/we-dont-want-you-lowell-residents-protest-microsofts-data-center-plan.html" target="_blank" rel="noopener noreferrer">they are catching on</a>.
+					Microsoft claims that it works with communities to reduce noise pollution and mitigate environmental damage, and <a href="https://news.microsoft.com/datacenters/" target="_blank" rel="noopener noreferrer">insists that these data centers bring economic benefits to surrounding areas</a>. Microsoft also made a significant commitment to end the anti-democratic practice of <a href="https://theassemblync.com/news/business/person-county-microsoft-data-center-nondisclosure-agreements/" target="_blank" rel="noopener noreferrer">non-disclosure agreements (NDAs)</a>. However, <a href="https://futurism.com/artificial-intelligence/microsoft-ai-data-center-lawsuit-neighbors" target="_blank" rel="noopener noreferrer">actions and impacts speak louder than words</a>. As Microsoft consistently breaks its promises through a seemingly never ending onslaught of unsustainable data centers, targeted communities report being shut out of critical information and decisions — and <a href="https://www.mlive.com/news/grand-rapids/2026/06/we-dont-want-you-lowell-residents-protest-microsofts-data-center-plan.html" target="_blank" rel="noopener noreferrer">they are catching on</a>.
 
 				</p>
 
@@ -94,7 +102,7 @@
 
 				<p>Unless Microsoft begins truly engaging with communities and starts taking its sustainability goals seriously, its data center expansion plans are dead in the water. </p>
 
-				<p>If you’re interested in joining the campaign for a better, cleaner, more responsible Microsoft, join tens of thousands of supporters by adding your name here. If you represent an organization or business, you can officially add your organization here. </p>
+				<p>If you’re interested in joining the campaign for a better, cleaner, more responsible Microsoft, <a href="#" onclick={(e) => { e.preventDefault(); onSignIndividual(); }}>join tens of thousands of supporters by adding your name here</a>. If you represent an organization or business, <a href="#" onclick={(e) => { e.preventDefault(); onSignOrganization(); }}>you can officially add your organization here</a>. </p>
 
 				<p>From local groups fighting new data centers in their own communities to household names like Stand.earth, Sierra Club, Greenpeace USA, Public Citizen, Friends of the Earth U.S., Hip Hop Caucus, Amazon Employees for Climate Justice, Beyond Fossil Fuel, Third Act and so many more, this coalition is strong and only getting stronger. In early 2026, over 150 organizations signed on to our open letter, demanding answers from Microsoft on its climate and community impacts. <a href="/letter">You can view the original letter and all signers here. </a></p>
 
@@ -246,6 +254,7 @@
 	ul {
 		padding-left:30px;
 		padding-bottom:10px;
+		font-size:1rem;
 	}
 	li {
 		padding-bottom:15px;
