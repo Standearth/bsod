@@ -46,7 +46,7 @@
 </script>
 
 <div class="share">
-	<h3 class="share-heading">Share This Letter</h3>
+	<h3 class="share-heading">SHARE THIS CALL TO ACTION</h3>
 
 	<div class="share-buttons">
 		{#each socials as social}
