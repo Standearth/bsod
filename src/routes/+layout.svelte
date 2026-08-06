@@ -5,9 +5,9 @@
 	let { children } = $props();
 
 	const siteUrl = 'https://microsoftlies.com';
-	const title = 'Microsoft, Your Climate Plan Ran Into a Problem';
+	const title = 'Microsoft, Your Data Center Buildout Ran Into a Problem';
 	const description = 'An open letter to Microsoft demanding accountability on climate commitments. Microsoft promised to be carbon negative by 2030 — but emissions keep rising. Sign the letter and demand action.';
-	const ogImage = 'https://microsoftlies.com/og.jpg';
+	const ogImage = 'https://microsoftlies.com/og_new.jpg';
 	const siteName = 'Stand.earth';
 </script>
 
