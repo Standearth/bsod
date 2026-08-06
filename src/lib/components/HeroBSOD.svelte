@@ -31,10 +31,10 @@
 	<div class="bsod-content">
 		<div class="sad-face">:(</div>
 		<h1 class="bsod-heading">
-			Microsoft, your climate plan ran into a problem and needs to restart.
+			Microsoft, your data center buildout ran into a problem and needs to restart.
 		</h1>
 		<p class="bsod-subtext">
-			We're just collecting some error info, and then you can review our open letter.
+			We're just collecting some error info, and then you can review your reputational and business risks.
 		</p>
 		<div class="bsod-progress">
 			<span class="progress-pct">{Math.round(progress)}% complete</span>
@@ -42,7 +42,7 @@
 		<div class="bsod-details">
 			<p class="bsod-small">
 				If you'd like to know more, search online for this error:
-				<span class="bsod-code">CLIMATE_COMMITMENT_FAILURE</span>
+				<span class="bsod-code">DATA_CENTER_FAILURES</span>
 			</p>
 		</div>
 	</div>

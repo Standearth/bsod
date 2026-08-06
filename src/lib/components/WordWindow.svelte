@@ -59,70 +59,44 @@
 	<div class="doc-area" >
 		<div class="doc-page">
 			<div class="doc-content">
-				<h2 class="letter-title">Microsoft, why so quiet about your climate goals?<span class="cursor">|</span></h2>
-
-				<p class="letter-addressee">Dear CEO Satya Nadella, Vice Chair Brad Smith, and CSO Melanie Nakagawa,</p>
+				<h2 class="letter-title">Microsoft is in trouble<span class="cursor">|</span></h2>
 
 				<p>
-					Communities are watching, you’re making deals with Chevron, and we still haven’t seen your latest “sustainability” plan. Why so quiet about your climate goals? Why are you hiding the real pollution and water use from each of your data centers?
+					Microsoft has an image problem, a financial problem — and increasingly a community opposition problem. As Microsoft (MSFT) ramps up its data center buildout, public opposition from communities is growing — and frequently, it’s everyday people who are winning, costing Microsoft dearly in the process.
 
 				</p>
 
 				<p>
-					Communities from across North America are facing more pollution, higher utility bills, and an increasingly unlivable climate – all exacerbated by your data center buildout. Now, your credibility as a climate leader and as a community partner is in danger of being gone for good.
+					Microsoft claims that it works with communities to reduce noise pollution and mitigate environmental damage, and <a href="https://news.microsoft.com/datacenters/" target="_blank" rel="noopener noreferrer">insists that these data centers bring economic benefits to surrounding areas</a>. Microsoft also made a significant commitment to end the anti-democratic practice of <a href="https://theassemblync.com/news/business/person-county-microsoft-data-center-nondisclosure-agreements/" target="_blank" rel="noopener noreferrer">non-disclosure agreements (NDAs)</a>. However, <a href="https://futurism.com/artificial-intelligence/microsoft-ai-data-center-lawsuit-neighbors" target="_blank" rel="noopener noreferrer">actions and impacts speak louder than words</a>. As Microsoft consistently breaks its promises through a seemingly never ending onslaught of unsustainable data centers, targeted communities report being shut out of critical information and decisions— and <a href="https://www.mlive.com/news/grand-rapids/2026/06/we-dont-want-you-lowell-residents-protest-microsofts-data-center-plan.html" target="_blank" rel="noopener noreferrer">they are catching on</a>.
+
 				</p>
 
 				<p>
-					You committed to be a climate leader, removing more carbon than you emitted and delivering around-the-clock clean energy, yet your company is increasingly using fossil fuels to power data centers, and has brought <a href="https://www.datacenterdynamics.com/en/news/microsoft-emissions-up-23-since-2020-blames-ai-data-centers/" target="_new">pollution</a>, <a href="https://spectrumnews1.com/wi/milwaukee/news/2026/04/10/neighbors-frustrated-with-data-center-s-noise" target="_new">noise</a>, <a href="https://www.wpr.org/news/microsoft-data-centers-8-million-gallons-water-each-year" target="_new">rampant water use</a>, and waste to local communities. Your company is selling AI and cloud services to oil and gas companies to increase fossil fuel production <a href="https://news.un.org/en/story/2021/10/1103472" target="_new">despite clear scientific warnings that existing oil reserves already exceed safe climate limits</a>.
+					People are beginning to see Microsoft’s vows to "unleash innovation" for what they are: nothing more than cynical corporate marketing that attempts to build as much compute as possible without considering the cost to impacted communities. While Microsoft slips through these deals without meaningful transparency or community benefit, local residents pay the price in the form of <a href="https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html" target="_blank" rel="noopener noreferrer">skyrocketing electricity bills</a>, increased <a href="https://spectrumnews1.com/wi/milwaukee/news/2026/04/10/neighbors-frustrated-with-data-center-s-noise" target="_blank" rel="noopener noreferrer">noise</a>, <a href="https://www.datacenterdynamics.com/en/news/microsoft-emissions-up-23-since-2020-blames-ai-data-centers/" target="_blank" rel="noopener noreferrer">air</a>, and <a href="https://www.wpr.org/news/microsoft-data-centers-8-million-gallons-water-each-year" target="_blank" rel="noopener noreferrer">water</a> pollution, as well as growing health impacts.
 				</p>
 
 				<p>
-					And now you may abandon your pledge to the planet in order to build more data centers as rapidly as possible, whatever the cost.
+					The real question communities face is this: Do you trust Microsoft to build out data centers responsibly and sustainably, and to keep your power and water bills from skyrocketing? 
 				</p>
 
 				<p>
-					As you prepare to release your sustainability report, we are writing to urge you to recommit to clean energy, transparency, community health, affordability, and environmental responsibility. Microsoft used to be a leader in developing clean, renewable energy to power its facilities, setting clear and meaningful environmental and climate pollution goals, and investing in durable carbon dioxide removal.
+					Increasingly, the answer is a resounding NO. In a recent Gallup poll, <a href="https://www.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx" target="_blank" rel="noopener noreferrer">71% of Americans</a> say they oppose or strongly oppose additional data centers. In fact, only 7% of respondents “strongly support” the idea of a data center near them. In the history of dumb ideas, it joins the <a href="https://www.yougov.com/en-us/articles/35852-lions-and-tigers-and-bears-what-animal-would-win-f" target="_blank" rel="noopener noreferrer">6% of U.S. men who say they could beat a grizzly bear in a fight</a>. When your primary vehicle for growth is polling neck and neck with fistfighting a grizzly, alarm bells should be going off up and down the line.
 				</p>
 
-				<p class="letter-closing">
-					<strong>If you kill your commitment to clean energy, communities won't trust you again.</strong>
-				</p>
+				<p>The question for shareholders, stakeholders, and investors is more serious: Do you trust such a contentious business plan with your retirement savings, or that of your clients? As $MSFT steamrolls on undeterred and continues to dump billions into a reckless data center bet without taking community or investor concerns seriously, recent headlines suggest that further investment in the company is risky at best. </p>
+				<ul><li>
+					As of August 2026, over 530 local laws in the U.S. restrict or outright ban new data centers. Notably, <a href="https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul" target="_blank" rel="noopener noreferrer">New York became the first to put a statewide data center moratorium into effect in July 2026</a>. Even more remarkable, Texas Governor Greg Abbott — who recently called for Texas to be the “epicenter” of artificial intelligence — has reversed course, <a href="https://www.eenews.net/articles/texas-governor-puts-data-center-grid-approvals-on-hold" target="_blank" rel="noopener noreferrer">declaring that no new data centers can be brought online until impacts on grid stability have a solution</a>.
+				</li><li>
+					Economists are urging caution, suggesting that <a href="https://www.cnbc.com/2026/07/27/jim-cramer-warns-ai-circular-financing-echoes-dot-com-bubble.html" target="_blank" rel="noopener noreferrer">AI and its infrastructure are on a similar boom-and-bust track to the dot com bubble of the 90s</a>, and warn that there are many safer, less risky, more sustainable places to invest currently.
+				</li><li>
+					As public opposition continues to grow, data centers have become a legitimate legislative target, and grassroots organizing from communities poses a meaningful threat to construction being completed on time and on budget. In only the first quarter of 2026, <a href="https://datacenterwatch.org/q1-2026" target="_blank" rel="noopener noreferrer">75 data centers worth a collective $130 billion were disrupted</a>.
+				</li></ul>
 
-				<hr class="letter-divider" />
+				<p>Unless Microsoft begins truly engaging with communities and starts taking its sustainability goals seriously, its data center expansion plans are dead in the water. </p>
 
-				<div class="signatories">
-					<p class="signatories-intro">
-						Organizations representing communities across North America and around the globe have co-signed this letter, including:
-					</p>
+				<p>If you’re interested in joining the campaign for a better, cleaner, more responsible Microsoft, join tens of thousands of supporters by adding your name here. If you represent an organization or business, you can officially add your organization here. </p>
 
-					<ul class="signatories-list" class:no-gap={showAllSignatories}>
-						{#each data.featuredOrganizations as org}
-							<li>{org}</li>
-						{/each}
-						
-						{#each data.highlightedOrganizations as org}
-							<li>{org}</li>
-						{/each}
-					</ul>
-
-					{#if !showAllSignatories}
-						<button class="read-more-btn" onclick={() => showAllSignatories = true}>
-							See full list ▾
-						</button>
-					{/if}
-
-					{#if showAllSignatories}
-						<ul class="signatories-list">
-							{#each data.allOrganizations as org}
-								<li>{org}</li>
-							{/each}
-						</ul>
-
-						<button class="read-more-btn" onclick={() => showAllSignatories = false}>
-							Show less ▴
-						</button>
-					{/if}
-				</div>
+				<p>From local groups fighting new data centers in their own communities to household names like Stand.earth, Sierra Club, Greenpeace USA, Public Citizen, Friends of the Earth U.S., Hip Hop Caucus, Amazon Employees for Climate Justice, Beyond Fossil Fuel, Third Act and so many more, this coalition is strong and only getting stronger. In early 2026, over 150 organizations signed on to our open letter, demanding answers from Microsoft on its climate and community impacts. <a href="/letter">You can view the original letter and all signers here. </a></p>
 
 				<!-- Scroll-tracking sentinel -->
 				<div bind:this={letterEnd} aria-hidden="true"></div>
@@ -262,15 +236,19 @@
 		color: #1a1a1a;
 	}
 
-	.letter-title {
-		max-width:350px;
-	}
-
 	/* Blinking cursor */
 	.cursor {
 		font-weight: 100;
 		color: #333;
 		animation: blink 1s step-end infinite;
+	}
+
+	ul {
+		padding-left:30px;
+		padding-bottom:10px;
+	}
+	li {
+		padding-bottom:15px;
 	}
 
 	@keyframes blink {
