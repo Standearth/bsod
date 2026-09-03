@@ -25,7 +25,7 @@ export const cityBanners: CityBannerConfig[] = [
 		cities: ['kenosha'],
 		regionCodes: ['WI'],
 		message:
-			'For anyone who lives in or around Kenosha, WI fight back against the Microsoft data center by sending a letter to your elected officials and Microsoft here!',
+			'For anyone who lives in or around Kenosha, WI, fight back against the Microsoft data center by sending a letter to your elected officials and Microsoft here!',
 		ctaLabel: 'Take Action',
 		ctaUrl: 'https://act.stand.earth/page/96103/action/1?ea.tracking.id=actpage&utm_source=mslies&utm_medium=referral'
 	}
