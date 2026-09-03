@@ -47,3 +47,30 @@ export function trackLetterScrolledToBottom() {
 		event_label: 'letter_bottom'
 	});
 }
+
+/** Fired when a geo-targeted city banner is shown to a visitor */
+export function trackCityBannerShown(bannerId: string) {
+	gtag('event', 'city_banner_shown', {
+		event_category: 'geo_targeting',
+		event_label: bannerId,
+		banner_id: bannerId
+	});
+}
+
+/** Fired when a visitor clicks the take-action CTA on a city banner */
+export function trackCityBannerClick(bannerId: string) {
+	gtag('event', 'city_banner_click', {
+		event_category: 'geo_targeting',
+		event_label: bannerId,
+		banner_id: bannerId
+	});
+}
+
+/** Fired when a visitor dismisses a city banner without clicking through */
+export function trackCityBannerDismiss(bannerId: string) {
+	gtag('event', 'city_banner_dismiss', {
+		event_category: 'geo_targeting',
+		event_label: bannerId,
+		banner_id: bannerId
+	});
+}
