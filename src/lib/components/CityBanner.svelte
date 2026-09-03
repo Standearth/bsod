@@ -150,7 +150,7 @@
 	.city-banner-content {
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 1rem 1.5rem;
+		padding: calc(1rem + 20px) calc(1.5rem + 20px);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -204,7 +204,7 @@
 
 	@media (max-width: 600px) {
 		.city-banner-content {
-			padding: 0.85rem 1rem;
+			padding: calc(0.85rem + 20px) calc(1rem + 20px);
 			gap: 0.75rem;
 		}
 
