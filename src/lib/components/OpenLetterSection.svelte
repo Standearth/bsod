@@ -1,13 +1,26 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import WordWindow from './WordWindow.svelte';
-	import Sidebar from './Sidebar.svelte';
+	import DemandsWindow from './DemandsWindow.svelte';
+	import SignatureCounter from './SignatureCounter.svelte';
+	import ShareSection from './ShareSection.svelte';
+	import YouTubeEmbed from './YouTubeEmbed.svelte';
 	import Modal from './Modal.svelte';
 	import bgImage from '$lib/assets/bg.jpeg';
 	import { trackIndividualSignOn, trackOrgSignOn } from '$lib/analytics';
 
 	let individualModalOpen = $state(false);
 	let orgModalOpen = $state(false);
+
+	function openIndividual() {
+		individualModalOpen = true;
+		trackIndividualSignOn();
+	}
+
+	function openOrg() {
+		orgModalOpen = true;
+		trackOrgSignOn();
+	}
 
 	const baseIndividualFormUrl = 'https://act.stand.earth/page/97803/petition/1';
 	const baseOrgFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScCJWisjq6KWB67E7jyMwlQzzs9rBpwxHNmrPgIhhjTbe22tA/viewform';
@@ -31,16 +44,15 @@
 <section id="open-letter" class="letter-section" style="background-image: url({bgImage})">
 	<div class="section-content">
 		<div class="content-word">
-			<WordWindow
-				onSignIndividual={() => { individualModalOpen = true; trackIndividualSignOn(); }}
-				onSignOrganization={() => { orgModalOpen = true; trackOrgSignOn(); }}
-			/>
+			<WordWindow />
 		</div>
 		<div class="content-sidebar">
-			<Sidebar
-				onSignIndividual={() => { individualModalOpen = true; trackIndividualSignOn(); }}
-				onSignOrganization={() => { orgModalOpen = true; trackOrgSignOn(); }}
-			/>
+			<DemandsWindow onSignIndividual={openIndividual} onSignOrganization={openOrg} />
+			<div class="sidebar-extras">
+				<SignatureCounter />
+				<ShareSection />
+				<YouTubeEmbed />
+			</div>
 		</div>
 	</div>
 </section>
@@ -67,17 +79,26 @@
 	}
 
 	.content-word {
-		flex: 2;
+		flex: 1.25;
 		min-width: 0;
+		position: sticky;
+		top: 1.5rem;
+		align-self: flex-start;
 	}
 
 	.content-sidebar {
 		flex: 1;
-		min-width: 260px;
-		max-width: 340px;
-		position: sticky;
-		top: 1.5rem;
-		align-self: flex-start;
+		min-width: 300px;
+		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+	}
+
+	.sidebar-extras {
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
 	}
 
 	@media (max-width: 900px) {
@@ -88,6 +109,7 @@
 
 		.content-word {
 			width: 100%;
+			position: static;
 		}
 
 		.content-sidebar {

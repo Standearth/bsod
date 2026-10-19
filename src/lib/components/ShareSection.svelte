@@ -3,7 +3,7 @@
 	import threadsIcon from '$lib/assets/threads.webp';
 
 	const shareUrl = 'https://microsoftlies.com';
-	const shareText = 'Microsoft, your climate plan ran into a problem. Read the open letter:';
+	const shareText = 'Microsoft is a bad neighbor. Tell Microsoft it’s not moving in:';
 
 	const socials: Array<{
 		name: string;
@@ -40,7 +40,7 @@
 			name: 'Email',
 			color: '#EA4335',
 			svg: '<path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>',
-			href: `mailto:?subject=${encodeURIComponent('Open Letter to Microsoft')}&body=${encodeURIComponent(shareText + ' ' + shareUrl)}`
+			href: `mailto:?subject=${encodeURIComponent('Microsoft is a bad neighbor')}&body=${encodeURIComponent(shareText + ' ' + shareUrl)}`
 		}
 	];
 </script>

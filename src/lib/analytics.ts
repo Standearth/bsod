@@ -74,3 +74,12 @@ export function trackCityBannerDismiss(bannerId: string) {
 		banner_id: bannerId
 	});
 }
+
+/** Fired when a visitor clicks a site-fight story or a "Latest Updates" card */
+export function trackStoryClick(section: 'site_fight' | 'latest_update', label: string) {
+	gtag('event', 'story_click', {
+		event_category: 'engagement',
+		event_label: label,
+		section
+	});
+}
