@@ -8,6 +8,13 @@
 	const increment = 100 / steps;
 
 	onMount(() => {
+		// Arriving via an in-page link (e.g. "Back to home" → /#open-letter):
+		// skip the countdown and let the browser land on that section directly.
+		if (window.location.hash) {
+			progress = 100;
+			return;
+		}
+
 		const timer = setInterval(() => {
 			progress += increment;
 			if (progress >= 100) {

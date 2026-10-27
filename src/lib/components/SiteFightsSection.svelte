@@ -6,7 +6,7 @@
 <section class="fights" id="stories">
 	<div class="fights-content">
 		<div class="fights-text">
-			<h2>Stories from Microsoft’s Dirty Data Center pushback</h2>
+			<h2>Stories of Resistance Against Microsoft’s Dirty Data Centers</h2>
 			<p>
 				Microsoft is rushing to expand its dirty data center network. These communities are fighting
 				back and holding one of the biggest companies in the world to account.

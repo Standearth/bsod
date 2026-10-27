@@ -60,10 +60,10 @@
 				<h2 class="letter-title">Microsoft is a bad neighbor.<span class="cursor">|</span></h2>
 
 				<p>
-					As Big Tech billionaires rushed to bulldoze through communities to build AI data centers, Microsoft claimed to care about the climate, promised to “do things differently,” and to be a “good neighbor.”
+					As Big Tech billionaires rush to bulldoze through communities to build AI data centers, Microsoft claims to care about the climate, promises to “do things differently,” and says it will be a “good neighbor.”
 				</p>
 
-				<p class="callout">Microsoft lied.</p>
+				<p class="callout">Microsoft is lying.</p>
 
 				<p>
 					The truth? Microsoft is sidelining communities and making deals with fossil fuel companies while its contracted data centers illegally run noisy gas generators – just like Elon Musk’s xAI.

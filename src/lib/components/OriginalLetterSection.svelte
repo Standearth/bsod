@@ -10,7 +10,7 @@
 	let orgModalOpen = $state(false);
 
 	const baseIndividualFormUrl = 'https://act.stand.earth/page/97803/petition/1';
-	const baseOrgFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScCJWisjq6KWB67E7jyMwlQzzs9rBpwxHNmrPgIhhjTbe22tA/viewform';
+	const baseOrgFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfjK_YjQktcQznWFmM05UKMkTTqf9iERh8Zyz-j8ELr9QUhDA/viewform';
 
 	// Append any URL params from the current page to the iframe form URLs
 	let individualFormUrl = $state(baseIndividualFormUrl);
@@ -31,7 +31,7 @@
 <section id="open-letter" class="letter-section" style="background-image: url({bgImage})">
 	<div class="section-content">
 		<div class="content-word">
-		<p><a style="color:#fff;display:block;padding-bottom:20px;" href="/"> ← Back to home</a></p>
+		<p><a style="color:#fff;display:block;padding-bottom:20px;" href="/#open-letter"> ← Back to home</a></p>
 			<WordWindow />
 		</div>
 		<div class="content-sidebar">
